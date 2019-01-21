@@ -1,0 +1,50 @@
+body {
+    background-color: #F5F5DC; /* bez boja */
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    line-height: 120px;
+	position: static;
+	background-color: #F5F5DC;
+}
+
+.jumbotron {
+    background-image: url('../img/banner.jpg');
+    background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+#banner {
+	background: rgba(245, 245, 220, 0.85); /* red, green, blue, alpha */
+	padding: 30px;
+	border-radius: 10%;
+}
+
+#btnCene > a {
+	text-decoration: none;
+	color: white;
+}
+
+#navigacija {
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.nav-item {
+	margin-left: 40px;
+	letter-spacing: 2px;
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
